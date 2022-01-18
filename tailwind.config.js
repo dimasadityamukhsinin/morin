@@ -65,7 +65,8 @@ module.exports = {
           '0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.1)',
         navbar: '2px 2px 2px 0px rgba(0,0,0,0.1)',
         normal: '2px 2px 4px 0px rgba(0,0,0,0.25)',
-        product: '2px 2px 4px 0px rgba(0,0,0,0.1)'
+        product: '2px 2px 4px 0px rgba(0,0,0,0.1)',
+        faqCard: '4px 5px 4px 0px rgba(0,0,0,0.25)',
       },
       height: {
         'screen-1/2': '50vh',

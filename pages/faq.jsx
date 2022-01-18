@@ -21,7 +21,7 @@ export default function Faq() {
         <Container className="my-10 px-10 mt-14 grid gap-6 grid-cols-3">
           <FancyLink
             destination="/products"
-            className="relative w-full h-30rem overflow-hidden rounded-3xl bg-m-s-lblue"
+            className="relative w-full h-30rem overflow-hidden rounded-3xl hover:shadow-faqCard bg-m-s-lblue"
           >
             <div className="relative z-1 text-m-blue text-center w-full h-full py-5 flex flex-col justify-between items-center">
               <div className="w-full h-full setflex-center">
@@ -39,7 +39,7 @@ export default function Faq() {
           </FancyLink>
           <FancyLink
             destination="/products"
-            className="relative w-full h-30rem overflow-hidden rounded-3xl bg-m-s-lblue"
+            className="relative w-full h-30rem overflow-hidden rounded-3xl hover:shadow-faqCard bg-m-s-lblue"
           >
             <div className="relative z-1 text-m-blue text-center w-full h-full py-5 flex flex-col justify-between items-center">
               <div className="w-full h-full setflex-center">
@@ -57,7 +57,7 @@ export default function Faq() {
           </FancyLink>
           <FancyLink
             destination="/products"
-            className="relative w-full h-30rem overflow-hidden rounded-3xl bg-m-s-lblue"
+            className="relative w-full h-30rem overflow-hidden rounded-3xl hover:shadow-faqCard bg-m-s-lblue"
           >
             <div className="relative z-1 text-m-blue text-center w-full h-full py-5 flex flex-col justify-between items-center">
               <div className="w-full h-full setflex-center">
