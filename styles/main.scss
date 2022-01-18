@@ -1,0 +1,47 @@
+/* Tailwind base/components */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import '_fonts.scss';
+
+/* Other Styling */
+@import '_global.scss';
+@import '_utils.scss';
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box
+}
+
+/* Simple defaults */
+body {
+  @apply font-default text-body font-medium tracking-wide antialiased text-black bg-white;
+  overscroll-behavior: none;
+}
+
+.swiper-pagination {
+    @apply space-x-4 #{!important};
+}
+
+.swiper-pagination-bullet {
+    @apply border border-white;
+    @apply opacity-100 bg-transparent w-3 h-3 #{!important};
+}
+
+.swiper-pagination-bullet-active {
+    @apply bg-white #{!important};
+}
+
+#swiper-recipe {
+    .swiper-slide {
+        @apply w-30rem;
+    }
+}
+
+#swiper-socmed {
+    .swiper-slide {
+        @apply w-72;
+    }
+}
